@@ -1,0 +1,43 @@
+.color {
+    width: 16px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+.swatch {
+    margin-left: 5px;
+    padding: 2px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    width: 40px;
+    height: 24px;
+}
+
+.popover {
+    position: absolute;
+    z-index: 2;
+    top: -330px;
+    left: 0px;
+}
+
+.cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.arrow-icon {
+    position: absolute;
+    font-size: 19px !important;
+    color: #777;
+    margin-left: 6px !important;
+    margin-top: 5px !important;
+}

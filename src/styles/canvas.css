@@ -1,0 +1,47 @@
+.canvas {
+    image-rendering: pixelated;
+    height: 512px;
+    width: 512px;
+    cursor: crosshair;
+
+}
+.canvas__32size {
+    background:
+            repeating-linear-gradient(
+                    transparent,transparent 15px, rgba(28,110,164,0.3) 16px
+            ),
+            repeating-linear-gradient(
+                    90deg,
+                    transparent,transparent 15px, rgba(28,110,164,0.3) 16px
+            );
+}
+.canvas__64size {
+    background:
+            repeating-linear-gradient(
+                    transparent,transparent 7px, rgba(28,110,164,0.3) 8px
+            ),
+            repeating-linear-gradient(
+                    90deg,
+                    transparent,transparent 7px, rgba(28,110,164,0.3) 8px
+            );
+}
+.canvas__96size {
+    background:
+            repeating-linear-gradient(
+                    transparent,transparent 4.333px, rgba(28,110,164,0.3) 5.3333px
+            ),
+            repeating-linear-gradient(
+                    90deg,
+                    transparent,transparent 4.3333px, rgba(28,110,164,0.3) 5.3333px
+            );
+}
+.canvas__128size {
+    background:
+            repeating-linear-gradient(
+                    transparent,transparent 3px, rgba(28,110,164,0.3) 4px
+            ),
+            repeating-linear-gradient(
+                    90deg,
+                    transparent,transparent 3px, rgba(28,110,164,0.3) 4px
+            );
+}

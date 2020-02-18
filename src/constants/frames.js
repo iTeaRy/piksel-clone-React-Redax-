@@ -1,0 +1,5 @@
+export const SAVE_IMAGE_ACTION = 'SAVE_IMAGE_ACTION';
+export const CREATE_NEW_FRAME = 'CREATE_NEW_FRAME';
+export const UPDATE_FRAME = 'UPDATE_FRAME';
+export const CHANGE_FRAME = 'CHANGE_FRAME';
+export const CHANGE_FPS = 'CHANGE_FPS';
